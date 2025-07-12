@@ -1,0 +1,56 @@
+{
+  "mappings": {
+    "com/viraps/mixin/client/ChatInputSuggestorMixin": {
+      "Lnet/minecraft/client/gui/widget/TextFieldWidget;getCursor()I": "Lnet/minecraft/class_342;method_1881()I",
+      "refresh()V": "Lnet/minecraft/class_4717;method_23934()V"
+    },
+    "com/viraps/mixin/client/ClientPlayNetworkHandlerMixin": {
+      "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+      "onWorldTimeUpdate": "Lnet/minecraft/class_634;method_11079(Lnet/minecraft/class_2761;)V",
+      "sendChatMessage": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V"
+    },
+    "com/viraps/mixin/client/ClientWorldTickMixin": {
+      "tick": "Lnet/minecraft/class_638;method_8441(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "com/viraps/mixin/client/ExampleClientMixin": {
+      "run": "Lnet/minecraft/class_310;method_1514()V"
+    },
+    "com/viraps/mixin/client/IngamehudMixin": {
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;F)V"
+    },
+    "com/viraps/mixin/client/KeyboardMixin": {
+      "onKeyPressed": "Lnet/minecraft/class_304;method_1420(Lnet/minecraft/class_3675$class_306;)V"
+    },
+    "com/viraps/mixin/client/TitleScreenMixin": {
+      "init": "Lnet/minecraft/class_442;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/viraps/mixin/client/ChatInputSuggestorMixin": {
+        "Lnet/minecraft/client/gui/widget/TextFieldWidget;getCursor()I": "Lnet/minecraft/class_342;method_1881()I",
+        "refresh()V": "Lnet/minecraft/class_4717;method_23934()V"
+      },
+      "com/viraps/mixin/client/ClientPlayNetworkHandlerMixin": {
+        "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+        "onWorldTimeUpdate": "Lnet/minecraft/class_634;method_11079(Lnet/minecraft/class_2761;)V",
+        "sendChatMessage": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V"
+      },
+      "com/viraps/mixin/client/ClientWorldTickMixin": {
+        "tick": "Lnet/minecraft/class_638;method_8441(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "com/viraps/mixin/client/ExampleClientMixin": {
+        "run": "Lnet/minecraft/class_310;method_1514()V"
+      },
+      "com/viraps/mixin/client/IngamehudMixin": {
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;F)V"
+      },
+      "com/viraps/mixin/client/KeyboardMixin": {
+        "onKeyPressed": "Lnet/minecraft/class_304;method_1420(Lnet/minecraft/class_3675$class_306;)V"
+      },
+      "com/viraps/mixin/client/TitleScreenMixin": {
+        "init": "Lnet/minecraft/class_442;method_25426()V"
+      }
+    }
+  }
+}
